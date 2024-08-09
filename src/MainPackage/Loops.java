@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
+package MainPackage;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author aytaj.veyisli
  */
-public class JavaApplication1 {
+public class Loops {
 
     /**
      * @param args the command line arguments
@@ -225,13 +225,14 @@ int number = input.nextInt();
 System.out.print("Text1: ");
 
 System.out.print("Text2: ");
+        
 String text2 = input.nextLine();
          */
  
  
  
  
- Scanner scan = new Scanner(System.in);
+/* Scanner scan = new Scanner(System.in);
  int x = scan.nextInt();
         if (x>99 && x<1000) {
             System.out.println(x);
@@ -239,8 +240,13 @@ String text2 = input.nextLine();
         else{
             System.out.println("0"+x);
         }
+*/
+
+Scanner scanner = new Scanner(System.in);
+double d = scanner.nextDouble();
+        System.out.println(d);
     }
-        
+     //   %-15s%03d
          
     }
         
